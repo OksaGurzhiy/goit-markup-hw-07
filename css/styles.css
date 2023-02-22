@@ -1078,8 +1078,8 @@ a {
   height: 100%;
   background-color: rgba(77, 90, 229, 0.7);
 }
-.portrfolio-link:hover .portfolio-overlay,
-.portrfolio-link:focus .portfolio-overlay {
+.portfolio-link:hover .portfolio-overlay,
+.portfolio-link:focus .portfolio-overlay {
   transform: translateY(0);
 }
 .thumb-text {
@@ -1371,13 +1371,11 @@ a {
 
   margin: 0;
   padding: 0;
-  background-color: #e7e9fc;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   outline: none;
 }
-
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -1409,6 +1407,9 @@ a {
 
 .menu-container.is-open {
   transform: translateX(0);
+}
+.menu-container.is-open .js-close-menu {
+  background-color: #e7e9fc;
 }
 
 .menu-container .menu-toggle {
