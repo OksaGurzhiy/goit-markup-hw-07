@@ -19,31 +19,18 @@
   <body>
     <header class="header">
       <div class="container container-nav">
-        <a class="logo" href="./index.html">
-          <span class="logo-web">WEB</span>STUDIO</a
-        >
-        <button
-          class="menu-toggle js-open-menu"
-          type="button"
-          aria-controls="mobile-menu"
-          aria-expanded="false"
-        >
-          <svg aria-label="Mobile menu switch" width="32" height="32">
-            <use
-              class="icon-menu"
-              href="./images/symbol-defs.svg#icon-menu"
-            ></use>
-          </svg>
-        </button>
         <nav class="nav">
+          <a class="logo" href="./index.html">
+            <span class="logo-web">WEB</span>STUDIO</a
+          >
           <ul class="nav-menu list">
-            <li class="nav-item">
+            <li class="item">
               <a class="site-nav current" href="./index.html">Studio</a>
             </li>
-            <li class="nav-item">
+            <li class="item">
               <a class="site-nav" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="item">
               <a class="site-nav" href="./index.html">Contacts</a>
             </li>
           </ul>
@@ -59,12 +46,10 @@
       </div>
     </header>
     <main>
-      <!-- Section HERO -->
-
       <section class="section-hero hero-image">
         <div class="hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" data-modal-open type="button">
+          <button class="hero-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -127,63 +112,33 @@
         </div>
       </section>
 
-      <!-- /* Section What are we doing */ -->
-
       <section class="own-projects section">
         <div class="container">
           <h2 class="second-title">What are we doing</h2>
           <ul class="projects list">
             <li class="projects-item">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/doing/img1-desk@1x.jpg 1x,
-                    ./images/doing/img1-desk@2x.jpg 2x
-                  "
-                />
-
-                <img
-                  src="./images/doing/img1-desk@1x.jpg"
-                  alt="sites"
-                  width="360"
-                  height="300"
-                />
-              </picture>
+              <img
+                src="./images/img1.jpg"
+                alt="sites"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="projects-item">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/doing/img2-desk@1x.jpg 1x,
-                    ./images/doing/img2-desk@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="./images/doing/img2-desk@1x.jpg"
-                  alt="apps"
-                  width="360"
-                  height="300"
-                />
-              </picture>
+              <img
+                src="./images/img2.jpg"
+                alt="apps"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="projects-item">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/doing/img3-desk@1x.jpg 1x,
-                    ./images/doing/img3-desk@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="./images/doing/img3-desk@1x.jpg"
-                  alt="others"
-                  width="360"
-                  height="300"
-                />
-              </picture>
+              <img
+                src="./images/img3.jpg"
+                alt="others"
+                width="360"
+                height="300"
+              />
             </li>
           </ul>
         </div>
@@ -194,35 +149,12 @@
           <h2 class="second-title">Our Team</h2>
           <ul class="team list">
             <li class="team-lead">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/team/img1-desk@1x.jpg 1x,
-                    ./images/team/img1-desk@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 768px)"
-                  srcset="
-                    ./images/team/img1-tabl@1x.jpg 1x,
-                    ./images/team/img1-tabl@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(max-width: 767px)"
-                  srcset="
-                    ./images/team/img1_mob@1x.jpg 1x,
-                    ./images/team/img1_mob@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="./images/team/img1_mob@1x.jpg"
-                  alt="Mark Guerrero"
-                  width="264"
-                  height="260"
-                />
-              </picture>
+              <img
+                src="./images/img4-Mark.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                height="260"
+              />
               <div class="team-description">
                 <h3 class="third-title-team">Mark Guerrero</h3>
                 <p class="text-team">Product Designer</p>
@@ -236,21 +168,21 @@
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -259,35 +191,12 @@
               </div>
             </li>
             <li class="team-lead">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/team/img2-desk@1x.jpg 1x,
-                    ./images/team/img2-desk@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 768px)"
-                  srcset="
-                    ./images/team/img2-tabl@1x.jpg 1x,
-                    ./images/team/img2-tabl@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(max-width: 767px)"
-                  srcset="
-                    ./images/team/img2_mob@1x.jpg 1x,
-                    ./images/team/img2_mob@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="./images/team/img2_mob@1x.jpg"
-                  alt="Tom Ford"
-                  width="264"
-                  height="260"
-                />
-              </picture>
+              <img
+                src="./images/img5-Tom.jpg"
+                alt="Tom Ford"
+                width="264"
+                height="260"
+              />
               <div class="team-description">
                 <h3 class="third-title-team">Tom Ford</h3>
                 <p class="text-team">Frontend Developer</p>
@@ -301,21 +210,21 @@
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -324,35 +233,12 @@
               </div>
             </li>
             <li class="team-lead">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/team/img3-desk@1x.jpg 1x,
-                    ./images/team/img3-desk@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 768px)"
-                  srcset="
-                    ./images/team/img3-tabl@1x.jpg 1x,
-                    ./images/team/img3-tabl@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(max-width: 767px)"
-                  srcset="
-                    ./images/team/img3_mob@1x.jpg 1x,
-                    ./images/team/img3_mob@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="./images/team/img3_mob@1x.jpg"
-                  alt="Camila Garcia"
-                  width="264"
-                  height="260"
-                />
-              </picture>
+              <img
+                src="./images/img6-Camilla.jpg"
+                alt="Camila Garcia"
+                width="264"
+                height="260"
+              />
               <div class="team-description">
                 <h3 class="third-title-team">Camila Garcia</h3>
                 <p class="text-team">Marketing</p>
@@ -366,21 +252,21 @@
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -389,35 +275,12 @@
               </div>
             </li>
             <li class="team-lead">
-              <picture>
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="
-                    ./images/team/img4-desk@1x.jpg 1x,
-                    ./images/team/img4-desk@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(min-width: 768px)"
-                  srcset="
-                    ./images/team/img4-tabl@1x.jpg 1x,
-                    ./images/team/img4-tabl@2x.jpg 2x
-                  "
-                />
-                <source
-                  media="(max-width: 767px)"
-                  srcset="
-                    ./images/team/img4_mob@1x.jpg 1x,
-                    ./images/team/img4_mob@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="./images/team/img4_mob@1x.jpg"
-                  alt="Daniel Wilson"
-                  width="264"
-                  height="260"
-                />
-              </picture>
+              <img
+                src="./images/img7-Daniel.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                height="260"
+              />
               <div class="team-description">
                 <h3 class="third-title-team">Daniel Wilson</h3>
                 <p class="text-team">UI Designer</p>
@@ -431,21 +294,21 @@
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a class="social-btn" href>
-                      <svg class="social-icon" width="24px" height="24px">
+                      <svg class="social-icon" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -509,7 +372,7 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-description">
+      <div class="container footer-description">
         <div class="footer-item">
           <a class="logo-footer" href="./index.html">
             <span class="logo-web">WEB</span>STUDIO</a
@@ -576,7 +439,7 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" data-modal-close type="button">
+        <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-img" width="8px" height="8px">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
@@ -587,9 +450,9 @@
             >Name
             <div class="input-container">
               <input
+                type="text"
                 class="modal-input"
                 name="name"
-                type="text"
                 autofocus="on"
               />
               <svg class="input-icon">
@@ -600,7 +463,7 @@
           <label class="modal-label"
             >Phone
             <div class="input-container">
-              <input class="modal-input" name="tel" type="tel" />
+              <input type="tel" class="modal-input" name="tel" />
               <svg class="input-icon">
                 <use href="./images/symbol-defs.svg#phone"></use>
               </svg>
@@ -609,7 +472,7 @@
           <label class="modal-label"
             >Email
             <div class="input-container">
-              <input class="modal-input" name="email" type="email" />
+              <input class="modal-input" type="email" name="email" />
               <svg class="input-icon">
                 <use href="./images/symbol-defs.svg#envelope"></use>
               </svg>
@@ -628,84 +491,19 @@
           <label class="modal-label-checkbox">
             <input
               class="modal-input-checkbox"
-              name="agreement"
               type="checkbox"
+              name="agreement"
             />
             <div class="agree-check"></div>
             <span class="modal-agreement"
               >I accept the terms and conditions of
-              <a class="modal-link" href>the Privacy Policy</a>
+              <a class="modal-link" href="">the Privacy Policy</a>
             </span>
           </label>
           <button class="modal-btn-send" type="submit">Send</button>
         </form>
       </div>
     </div>
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg class="modal-img" width="8px" height="8px">
-          <use href="./images/symbol-defs.svg#icon-close"></use>
-        </svg>
-      </button>
-
-      <ul class="mobile-menu">
-        <li class="mobile-item"><a class="mobile-link" href>Studio</a></li>
-        <li class="mobile-item">
-          <a class="mobile-link" href>Portfolio</a>
-        </li>
-        <li class="mobile-item">
-          <a class="mobile-link current-mob" href>Contacts</a>
-        </li>
-      </ul>
-      <ul class="contacts-mobile list">
-        <li class="contacts-item">
-          <a class="item-phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-        <li class="contacts-item">
-          <a class="item-mail" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-      <ul class="mobile-social-list list">
-        <li class="social-item">
-          <a class="social-btn" href>
-            <svg class="social-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-btn" href>
-            <svg class="social-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-btn" href>
-            <svg class="social-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="social-btn" href>
-            <svg class="social-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      defer
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/mobile-menu.js" defer></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
