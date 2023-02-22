@@ -1304,7 +1304,6 @@ a {
 .modal-input-checkbox:checked + .agree-check {
   background-image: url('/images/icon-check.svg');
   background-repeat: no-repeat;
-
   background-position: center;
 }
 .agree-check {
