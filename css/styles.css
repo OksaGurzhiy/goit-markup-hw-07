@@ -246,7 +246,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero-mob@1x.jpg);
+    url('../images/hero/hero-mob@1x.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -260,7 +260,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-desk@1x.jpg);
+      url('../images/hero/hero-desk@1x.jpg');
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -272,7 +272,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-tabl@1x.jpg);
+      url('../images/hero/hero-tabl@1x.jpg');
   }
 }
 
@@ -283,7 +283,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-mob@2x.jpg);
+      url('../images/hero/hero-mob@2x.jpg');
   }
   @media screen and (min-width: 1200px) {
     .hero-image {
@@ -292,7 +292,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero/hero-desk@2x.jpg);
+        url('../images/hero/hero-desk@2x.jpg');
     }
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -302,7 +302,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero/hero-tabl@2x.jpg);
+        url('../images/hero/hero-tabl@2x.jpg');
     }
   }
 }
@@ -1302,7 +1302,7 @@ a {
   appearance: none;
 }
 .modal-input-checkbox:checked + .agree-check {
-  background-image: url(/images/icon-check.svg);
+  background-image: url('/images/icon-check.svg');
   background-repeat: no-repeat;
 
   background-position: center;
