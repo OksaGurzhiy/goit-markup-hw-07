@@ -59,22 +59,27 @@ a {
 }
 
 .container {
-  max-width: 480px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
-    max-width: 1200px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    max-width: 1199px;
-    padding: 0 16px 0 16px;
+    width: 480px;
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 1199px;
+    padding: 0 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 /* Header */
 
 .header {
@@ -228,11 +233,13 @@ a {
 .section-hero {
   max-width: 767px;
   padding: 112px 0;
+  margin: 0 auto;
 }
 @media screen and (min-width: 1200px) {
   .section-hero {
     max-width: 1200px;
     padding: 188px 0;
+    margin: 0 auto;
   }
 }
 
@@ -240,10 +247,12 @@ a {
   .section-hero {
     max-width: 1199px;
     padding: 112px 0;
+    margin: 0 auto;
   }
 }
 
 .hero-image {
+  height: 432px;
   background-color: var(--main-color-title);
 
   background-image: linear-gradient(
@@ -256,18 +265,6 @@ a {
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 1200px) {
-  .hero-image {
-    max-width: 1600px;
-    height: 600px;
-    background-image: linear-gradient(
-        to right,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero/hero-desk@1x.jpg);
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-image {
     max-width: 1199px;
@@ -290,6 +287,16 @@ a {
       ),
       url(../images/hero/hero-mob@2x.jpg);
   }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .hero-image {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/hero-tabl@2x.jpg);
+    }
+  }
   @media screen and (min-width: 1200px) {
     .hero-image {
       background-image: linear-gradient(
@@ -300,15 +307,18 @@ a {
         url(../images/hero/hero-desk@2x.jpg);
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .hero-image {
-      background-image: linear-gradient(
-          to right,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero/hero-tabl@2x.jpg);
-    }
+}
+@media screen and (min-width: 1200px) {
+  .hero-image {
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-desk@1x.jpg);
   }
 }
 
@@ -506,6 +516,9 @@ a {
 @media screen and (min-width: 1200px) {
   .own-projects {
     display: block;
+  }
+  .section {
+    padding-top: 0;
   }
 }
 .second-title {
@@ -750,18 +763,8 @@ a {
   }
 }
 .footer .container {
-  display: block;
   max-width: 767px;
 }
-@media screen and (min-width: 1200px) {
-  .footer .container {
-    display: flex;
-    max-width: 1200px;
-    margin: auto;
-    justify-content: space-between;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer .container {
     display: flex;
@@ -769,6 +772,13 @@ a {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
   }
 }
 
@@ -826,11 +836,18 @@ a {
 .footer-item-social {
   margin-top: 72px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-item-social {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-item-social {
+    margin-top: 0;
+    margin-right: 80px;
+  }
+}
+
 .footer-media {
   margin-bottom: 16px;
   font-weight: 500;
@@ -969,7 +986,7 @@ a {
 }
 
 .subscribe-icon {
-  margin-left: 24px;
+  margin-left: 14px;
   width: 24px;
   height: 20px;
   fill: #ffffff;
